@@ -1,0 +1,128 @@
+[data-icon]:before {
+    content: attr(data-icon)
+}
+
+[data-icon]:before,
+.icon-arrow-left:before,
+.icon-arrow-right:before,
+.icon-attachments-vertical:before,
+.icon-calendar:before,
+.icon-email:before,
+.icon-exclamation:before,
+.icon-focus:before,
+.icon-hire:before,
+.icon-linkedin:before,
+.icon-minus-filled:before,
+.icon-my-job:before,
+.icon-neutral:before,
+.icon-no-hire:before,
+.icon-phone:before,
+.icon-round-crossed:before,
+.icon-search:before,
+.icon-star:before,
+.icon-star-o:before,
+.icon-strong-hire:before,
+.icon-strong-no-hire:before,
+.icon-tick-round-solid:before,
+.icon-trash:before {
+    display: inline-block;
+    font-family: "icons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-decoration: inherit;
+    text-rendering: optimizeLegibility;
+    text-transform: none;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased
+}
+
+.icon-arrow-left:before {
+    content: "\f101"
+}
+
+.icon-arrow-right:before {
+    content: "\f100"
+}
+
+.icon-attachments-vertical:before {
+    content: "\f106"
+}
+
+.icon-calendar:before {
+    content: "\f102"
+}
+
+.icon-email:before {
+    content: "\f104"
+}
+
+.icon-exclamation:before {
+    content: "\f103"
+}
+
+.icon-focus:before {
+    content: "\f114"
+}
+
+.icon-hire:before {
+    content: "\f110"
+}
+
+.icon-linkedin:before {
+    content: "\f108"
+}
+
+.icon-minus-filled:before {
+    content: "\f115"
+}
+
+.icon-my-job:before {
+    content: "\f119"
+}
+
+.icon-neutral:before {
+    content: "\f118"
+}
+
+.icon-no-hire:before {
+    content: "\f112"
+}
+
+.icon-phone:before {
+    content: "\f105"
+}
+
+.icon-round-crossed:before {
+    content: "\f117"
+}
+
+.icon-search:before {
+    content: "\f11a"
+}
+
+.icon-star:before {
+    content: "\f10a"
+}
+
+.icon-star-o:before {
+    content: "\f10b"
+}
+
+.icon-strong-hire:before {
+    content: "\f111"
+}
+
+.icon-strong-no-hire:before {
+    content: "\f113"
+}
+
+.icon-tick-round-solid:before {
+    content: "\f116"
+}
+
+.icon-trash:before {
+    content: "\f107"
+}
