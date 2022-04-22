@@ -114,7 +114,7 @@
                     </select>
 
                     <select name="city_id" id="city_id" data-placeholder="Choose Location" data-selected-text="Location"
-                        data-search-text="Search Country, City">
+                        data-search-text="Search City, Country">
                         <option value="Sandakan, Malaysia">Sandakan, Malaysia</option>
                         <option value="Tawau, Malaysia">Tawau, Malaysia
                         </option>
@@ -159,6 +159,81 @@
                             class="toggle-btn" type="checkbox" value="1" name="[remote]" />
                         <label for="toggle-btn"></label>
                     </div>
+                </div>
+                <button id="myBtn">Post a New Job</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <div id="newjob">
+                        <h1 id="job-modal-header">Post a New Job</h1>
+                        <form id="newjob">
+                            <div class="field-column">
+                                <label id="modal-label">Department</label>
+                                <select name="department" id="department">
+                                  <option value="finance">Finance</option> 
+                                  <option value="administration">Administration</option>
+                                  <option value="sales">Sales</option>
+                                  <option value="engineering">Engineering</option>
+                                  <option value="ai">AI & Software</option>
+                                  <option value="operating">Operating</option>
+                                  <option value="ceo">CEO Office</option>
+                                  <option value="3S">3S</option>
+                                  <option value="compliance">compliance</option>
+                                  <option value="gis">GIS</option>
+                                  <option value="maintenance">Maintenance</option>
+                                </select>
+                            </div>
+                            <div class="field-column">
+                                <label id="modal-label">Work Type</label>
+                                <select name="worktype" id="worktype">
+                                    <option value="fulltime">Full Time</option>
+                                    <option value="intern">Intern</option>
+                                </select>
+                            </div>
+                            <div class="field-column">
+                                <label id="modal-label">City, Country</label>
+                                <select name="location" id="location">
+                                    <option value="" selected disabled hidden>Choose Here</option>
+                                    <option value="Sandakan, Malaysia">Sandakan, Malaysia</option>
+                                    <option value="Tawau, Malaysia">Tawau, Malaysia
+                                    </option>
+                                    <option value="Labuan, Malaysia">Labuan, Malaysia</option>
+                                    <option value="Lahad Datu, Malaysia">Lahad Datu, Malaysia</option>
+                                    <option value="Jakarta, Indonesia">Jakarta, Indonesia</option>
+                                    <option value="Kluang, Malaysia">Kluang, Malaysia</option>
+                                    <option value="Vientiane, Lao People&#39;s Democratic Republic">Vientiane, Lao People&#39;s
+                                        Democratic Republic</option>
+                                    <option value="Petaling Jaya, Malaysia">Petaling Jaya, Malaysia</option>
+                                    <option value="Manila, Philippines">Manila, Philippines</option>
+                                    <option value="Teluk Intan, Malaysia">Teluk Intan, Malaysia</option>
+                                    <option value="Bangkok, Thailand">Bangkok, Thailand</option>
+                                    <option value="Hanoi, Viet Nam">Hanoi, Viet Nam</option>
+                                    <option value="remote">Remote Work</option>
+                                </select>
+                            </div>
+                            <div class="field-column">
+                                <label id="modal-label">Job Title</label>
+                                <input type="text">
+                            </div>
+                            <div class="field">
+                                <label id="modal-label">Description</label>
+                                <textarea name="description" id="description" cols="30" rows="5"></textarea>
+                            </div>
+                            <div id="form-button">
+                                <button class="button">
+                                    <span>
+                                        Submit
+                                    </span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
                 </div>
 
                 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"
